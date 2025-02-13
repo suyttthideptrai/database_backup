@@ -6,6 +6,10 @@
 -- Generation Time: Mar 12, 2024 at 04:14 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.3.3
+DROP DATABASE IF EXISTS wordpress;
+CREATE DATABASE wordpress;
+USE wordpress;
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
